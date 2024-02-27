@@ -1,68 +1,192 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/fonts/PPMondwest-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/fonts/PPNeueBit-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/><link rel="preload" href="/_next/static/css/6a3e4620d4d1e4c6.css" as="style" crossorigin=""/><link rel="stylesheet" href="/_next/static/css/6a3e4620d4d1e4c6.css" crossorigin="" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" crossorigin="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-394782f8394ee373.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/framework-e182ded6da661f6f.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/main-8cce842fce031a61.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/_app-fe8be43503650682.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/2332-499b77897b548384.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/453-d82c18e2d4f20844.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/projects/VHSRedemptionPage-c74ca3eb6bbbea28.js" defer="" crossorigin=""></script><script src="/_next/static/855G1fKrzMEec7JnzO_Bs/_buildManifest.js" defer="" crossorigin=""></script><script src="/_next/static/855G1fKrzMEec7JnzO_Bs/_ssgManifest.js" defer="" crossorigin=""></script></head><body><div id="__next"><div class="text-white"><div data-rk=""><style>[data-rk]{--rk-blurs-modalOverlay:blur(0px);--rk-fonts-body:SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--rk-radii-actionButton:9999px;--rk-radii-connectButton:12px;--rk-radii-menuButton:12px;--rk-radii-modal:24px;--rk-radii-modalMobile:28px;--rk-colors-accentColor:black;--rk-colors-accentColorForeground:#FFF;--rk-colors-actionButtonBorder:rgba(0, 0, 0, 0.04);--rk-colors-actionButtonBorderMobile:rgba(0, 0, 0, 0.06);--rk-colors-actionButtonSecondaryBackground:rgba(0, 0, 0, 0.06);--rk-colors-closeButton:rgba(60, 66, 66, 0.8);--rk-colors-closeButtonBackground:rgba(0, 0, 0, 0.06);--rk-colors-connectButtonBackground:#FFF;--rk-colors-connectButtonBackgroundError:#FF494A;--rk-colors-connectButtonInnerBackground:linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.06));--rk-colors-connectButtonText:#25292E;--rk-colors-connectButtonTextError:#FFF;--rk-colors-connectionIndicator:#30E000;--rk-colors-downloadBottomCardBackground:linear-gradient(126deg, rgba(255, 255, 255, 0) 9.49%, rgba(171, 171, 171, 0.04) 71.04%), #FFFFFF;--rk-colors-downloadTopCardBackground:linear-gradient(126deg, rgba(171, 171, 171, 0.2) 9.49%, rgba(255, 255, 255, 0) 71.04%), #FFFFFF;--rk-colors-error:#FF494A;--rk-colors-generalBorder:rgba(0, 0, 0, 0.06);--rk-colors-generalBorderDim:rgba(0, 0, 0, 0.03);--rk-colors-menuItemBackground:rgba(60, 66, 66, 0.1);--rk-colors-modalBackdrop:rgba(0, 0, 0, 0.3);--rk-colors-modalBackground:#FFF;--rk-colors-modalBorder:transparent;--rk-colors-modalText:#25292E;--rk-colors-modalTextDim:rgba(60, 66, 66, 0.3);--rk-colors-modalTextSecondary:rgba(60, 66, 66, 0.6);--rk-colors-profileAction:#FFF;--rk-colors-profileActionHover:rgba(255, 255, 255, 0.5);--rk-colors-profileForeground:rgba(60, 66, 66, 0.06);--rk-colors-selectedOptionBorder:rgba(60, 66, 66, 0.1);--rk-colors-standby:#FFD641;--rk-shadows-connectButton:0px 4px 12px rgba(0, 0, 0, 0.1);--rk-shadows-dialog:0px 8px 32px rgba(0, 0, 0, 0.32);--rk-shadows-profileDetailsAction:0px 2px 6px rgba(37, 41, 46, 0.04);--rk-shadows-selectedOption:0px 2px 6px rgba(0, 0, 0, 0.24);--rk-shadows-selectedWallet:0px 2px 6px rgba(0, 0, 0, 0.12);--rk-shadows-walletLogo:0px 2px 16px rgba(0, 0, 0, 0.16);}</style><style>
-    #nprogress {
-      pointer-events: none;
-    }
-    #nprogress .bar {
-      background: #ff89de;
-      position: fixed;
-      z-index: 9999;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 2px;
-    }
-    #nprogress .peg {
-      display: block;
-      position: absolute;
-      right: 0px;
-      width: 100px;
-      height: 100%;
-      box-shadow: 0 0 10px #ff89de, 0 0 5px #ff89de;
-      opacity: 1;
-      -webkit-transform: rotate(3deg) translate(0px, -4px);
-      -ms-transform: rotate(3deg) translate(0px, -4px);
-      transform: rotate(3deg) translate(0px, -4px);
-    }
-    #nprogress .spinner {
-      display: block;
-      position: fixed;
-      z-index: 1031;
-      top: 15px;
-      right: 15px;
-    }
-    #nprogress .spinner-icon {
-      width: 18px;
-      height: 18px;
-      box-sizing: border-box;
-      border: solid 2px transparent;
-      border-top-color: #ff89de;
-      border-left-color: #ff89de;
-      border-radius: 50%;
-      -webkit-animation: nprogresss-spinner 400ms linear infinite;
-      animation: nprogress-spinner 400ms linear infinite;
-    }
-    .nprogress-custom-parent {
-      overflow: hidden;
-      position: relative;
-    }
-    .nprogress-custom-parent #nprogress .spinner,
-    .nprogress-custom-parent #nprogress .bar {
-      position: absolute;
-    }
-    @-webkit-keyframes nprogress-spinner {
-      0% {
-        -webkit-transform: rotate(0deg);
-      }
-      100% {
-        -webkit-transform: rotate(360deg);
-      }
-    }
-    @keyframes nprogress-spinner {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-  </style><div class="h-full w-full text-white"><video preload="auto" playsinline="" autoplay="" muted="" loop="" class="invisible fixed top-0 left-0 -z-[1] h-full w-full bg-dark object-contain object-top sm:visible sm:object-center"><source src="/video/inkblot1080.webm" type="video/webm"/><source src="/video/inkblot1080.mp4" type="video/mp4; codecs=hvc1"/></video><div class="visible fixed top-0 left-0 -z-[1] h-screen w-full bg-dark pt-10 sm:invisible"><img alt="inkblot" loading="lazy" width="3133" height="1304" decoding="async" data-nimg="1" class="h-full w-full object-contain object-top" style="color:transparent" src="/images/inkblot_logo.png"/></div><div class="flex h-[80vh] w-full flex-col p-4"><div class="flex w-full items-center justify-between"><a class="block py-2" href="/">Portionclub69</a><button class="m-3 block bg-highlight py-2 px-4 text-dark">Join</button></div><main class="pt-12 sm:pt-0"><div><h1>AIGHT SKATE TAPE 📼 VHS REDEMPTION PAGE</h1><a href="https://docs.google.com/forms/d/e/1FAIpQLSei16zhZUMsXXpB1nDIKfNulqgeB7ozvvRSk4WIMwS2vdWROQ/viewform?usp=sf_link">CLICK HERE TO REDEEM PHYSICAL AIGHT VHS TAPE</a><div class="iframely-docs-google iframely-app iframely-embed"><div class="iframely-responsive"><iframe src="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSei16zhZUMsXXpB1nDIKfNulqgeB7ozvvRSk4WIMwS2vdWROQ%2Fviewform%3Fusp%3Dsf_link&amp;key=ec1133e249fbfff764ead184bb038761" allowfullscreen="" height="1940"></iframe></div></div></div></main><nav class="mt-10"><a class="block h-16 max-w-max cursor-pointer py-1 text-3xl transition-all hover:text-4xl" href="/projects.html">Projects</a></nav></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json" crossorigin="">{"props":{"pageProps":{}},"page":"/projects/VHSRedemptionPage","query":{},"buildId":"855G1fKrzMEec7JnzO_Bs","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="next-head-count" content="2" />
+  <link rel="preload" href="/fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" href="/fonts/PPMondwest-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" href="/fonts/PPNeueBit-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" href="/next/static/css/6a3e4620d4d1e4c6.css" as="style" crossorigin="" />
+  <link rel="stylesheet" href="/next/static/css/6a3e4620d4d1e4c6.css" crossorigin="" data-n-g="" /><noscript
+    data-n-css=""></noscript>
+  <script defer="" crossorigin="" nomodule="" src="/next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+  <script src="/next/static/chunks/webpack-394782f8394ee373.js" defer="" crossorigin=""></script>
+  <script src="/next/static/chunks/framework-e182ded6da661f6f.js" defer="" crossorigin=""></script>
+  <script src="/next/static/chunks/main-8cce842fce031a61.js" defer="" crossorigin=""></script>
+  <script src="/next/static/chunks/pages/_app-fe8be43503650682.js" defer="" crossorigin=""></script>
+  <script src="/next/static/chunks/2332-499b77897b548384.js" defer="" crossorigin=""></script>
+  <script src="/next/static/chunks/453-d82c18e2d4f20844.js" defer="" crossorigin=""></script>
+  <script src="/next/static/chunks/pages/projects/VHSRedemptionPage-c74ca3eb6bbbea28.js" defer=""
+    crossorigin=""></script>
+  <script src="/next/static/855G1fKrzMEec7JnzO_Bs/_buildManifest.js" defer="" crossorigin=""></script>
+  <script src="/next/static/855G1fKrzMEec7JnzO_Bs/_ssgManifest.js" defer="" crossorigin=""></script>
+</head>
+
+<body>
+  <div id="__next">
+    <div class="text-white">
+      <div data-rk="">
+        <style>
+          [data-rk] {
+            --rk-blurs-modalOverlay: blur(0px);
+            --rk-fonts-body: SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            --rk-radii-actionButton: 9999px;
+            --rk-radii-connectButton: 12px;
+            --rk-radii-menuButton: 12px;
+            --rk-radii-modal: 24px;
+            --rk-radii-modalMobile: 28px;
+            --rk-colors-accentColor: black;
+            --rk-colors-accentColorForeground: #FFF;
+            --rk-colors-actionButtonBorder: rgba(0, 0, 0, 0.04);
+            --rk-colors-actionButtonBorderMobile: rgba(0, 0, 0, 0.06);
+            --rk-colors-actionButtonSecondaryBackground: rgba(0, 0, 0, 0.06);
+            --rk-colors-closeButton: rgba(60, 66, 66, 0.8);
+            --rk-colors-closeButtonBackground: rgba(0, 0, 0, 0.06);
+            --rk-colors-connectButtonBackground: #FFF;
+            --rk-colors-connectButtonBackgroundError: #FF494A;
+            --rk-colors-connectButtonInnerBackground: linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.06));
+            --rk-colors-connectButtonText: #25292E;
+            --rk-colors-connectButtonTextError: #FFF;
+            --rk-colors-connectionIndicator: #30E000;
+            --rk-colors-downloadBottomCardBackground: linear-gradient(126deg, rgba(255, 255, 255, 0) 9.49%, rgba(171, 171, 171, 0.04) 71.04%), #FFFFFF;
+            --rk-colors-downloadTopCardBackground: linear-gradient(126deg, rgba(171, 171, 171, 0.2) 9.49%, rgba(255, 255, 255, 0) 71.04%), #FFFFFF;
+            --rk-colors-error: #FF494A;
+            --rk-colors-generalBorder: rgba(0, 0, 0, 0.06);
+            --rk-colors-generalBorderDim: rgba(0, 0, 0, 0.03);
+            --rk-colors-menuItemBackground: rgba(60, 66, 66, 0.1);
+            --rk-colors-modalBackdrop: rgba(0, 0, 0, 0.3);
+            --rk-colors-modalBackground: #FFF;
+            --rk-colors-modalBorder: transparent;
+            --rk-colors-modalText: #25292E;
+            --rk-colors-modalTextDim: rgba(60, 66, 66, 0.3);
+            --rk-colors-modalTextSecondary: rgba(60, 66, 66, 0.6);
+            --rk-colors-profileAction: #FFF;
+            --rk-colors-profileActionHover: rgba(255, 255, 255, 0.5);
+            --rk-colors-profileForeground: rgba(60, 66, 66, 0.06);
+            --rk-colors-selectedOptionBorder: rgba(60, 66, 66, 0.1);
+            --rk-colors-standby: #FFD641;
+            --rk-shadows-connectButton: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            --rk-shadows-dialog: 0px 8px 32px rgba(0, 0, 0, 0.32);
+            --rk-shadows-profileDetailsAction: 0px 2px 6px rgba(37, 41, 46, 0.04);
+            --rk-shadows-selectedOption: 0px 2px 6px rgba(0, 0, 0, 0.24);
+            --rk-shadows-selectedWallet: 0px 2px 6px rgba(0, 0, 0, 0.12);
+            --rk-shadows-walletLogo: 0px 2px 16px rgba(0, 0, 0, 0.16);
+          }
+        </style>
+        <style>
+          #nprogress {
+            pointer-events: none;
+          }
+
+          #nprogress .bar {
+            background: #ff89de;
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+          }
+
+          #nprogress .peg {
+            display: block;
+            position: absolute;
+            right: 0px;
+            width: 100px;
+            height: 100%;
+            box-shadow: 0 0 10px #ff89de, 0 0 5px #ff89de;
+            opacity: 1;
+            -webkit-transform: rotate(3deg) translate(0px, -4px);
+            -ms-transform: rotate(3deg) translate(0px, -4px);
+            transform: rotate(3deg) translate(0px, -4px);
+          }
+
+          #nprogress .spinner {
+            display: block;
+            position: fixed;
+            z-index: 1031;
+            top: 15px;
+            right: 15px;
+          }
+
+          #nprogress .spinner-icon {
+            width: 18px;
+            height: 18px;
+            box-sizing: border-box;
+            border: solid 2px transparent;
+            border-top-color: #ff89de;
+            border-left-color: #ff89de;
+            border-radius: 50%;
+            -webkit-animation: nprogresss-spinner 400ms linear infinite;
+            animation: nprogress-spinner 400ms linear infinite;
+          }
+
+          .nprogress-custom-parent {
+            overflow: hidden;
+            position: relative;
+          }
+
+          .nprogress-custom-parent #nprogress .spinner,
+          .nprogress-custom-parent #nprogress .bar {
+            position: absolute;
+          }
+
+          @-webkit-keyframes nprogress-spinner {
+            0% {
+              -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+              -webkit-transform: rotate(360deg);
+            }
+          }
+
+          @keyframes nprogress-spinner {
+            0% {
+              transform: rotate(0deg);
+            }
+
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+        </style>
+        <div class="h-full w-full text-white"><video preload="auto" playsinline="" autoplay="" muted="" loop=""
+            class="invisible fixed top-0 left-0 -z-[1] h-full w-full bg-dark object-contain object-top sm:visible sm:object-center">
+            <source src="/video/inkblot1080.webm" type="video/webm" />
+            <source src="/video/inkblot1080.mp4" type="video/mp4; codecs=hvc1" />
+          </video>
+          <div class="visible fixed top-0 left-0 -z-[1] h-screen w-full bg-dark pt-10 sm:invisible"><img alt="inkblot"
+              loading="lazy" width="3133" height="1304" decoding="async" data-nimg="1"
+              class="h-full w-full object-contain object-top" style="color:transparent"
+              src="/images/inkblot_logo.png" /></div>
+          <div class="flex h-[80vh] w-full flex-col p-4">
+            <div class="flex w-full items-center justify-between"><a class="block py-2"
+                href="/">Portionclub69</a><button class="m-3 block bg-highlight py-2 px-4 text-dark">Join</button></div>
+            <main class="pt-12 sm:pt-0">
+              <div>
+                <h1>AIGHT SKATE TAPE 📼 VHS REDEMPTION PAGE</h1><a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSei16zhZUMsXXpB1nDIKfNulqgeB7ozvvRSk4WIMwS2vdWROQ/viewform?usp=sf_link">CLICK
+                  HERE TO REDEEM PHYSICAL AIGHT VHS TAPE</a>
+                <div class="iframely-docs-google iframely-app iframely-embed">
+                  <div class="iframely-responsive"><iframe
+                      src="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSei16zhZUMsXXpB1nDIKfNulqgeB7ozvvRSk4WIMwS2vdWROQ%2Fviewform%3Fusp%3Dsf_link&amp;key=ec1133e249fbfff764ead184bb038761"
+                      allowfullscreen="" height="1940"></iframe></div>
+                </div>
+              </div>
+            </main>
+            <nav class="mt-10"><a
+                class="block h-16 max-w-max cursor-pointer py-1 text-3xl transition-all hover:text-4xl"
+                href="/projects.html">Projects</a></nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script id="__NEXT_DATA__" type="application/json"
+    crossorigin="">{"props":{"pageProps":{}},"page":"/projects/VHSRedemptionPage","query":{},"buildId":"855G1fKrzMEec7JnzO_Bs","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+</body>
+
+</html>
