@@ -6,6 +6,7 @@ const withTM = require('next-transpile-modules')([
 ]);
 
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
   env: {
     LIVEPEER_KEY: process.env.LIVEPEER_KEY,
@@ -41,6 +42,9 @@ const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   experimental: {
     esmExternals: 'loose',
+  },
+  images: {
+    unoptimized: true,
   },
 };
 

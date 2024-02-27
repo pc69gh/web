@@ -1,4 +1,3 @@
-import Link from 'next/dist/client/link';
 import * as React from 'react';
 
 import Layout from '../components/layout/Layout';
@@ -19,14 +18,14 @@ export default function HomePage() {
         <Seo templateTitle='Home' />
 
         <section>
-          <p className='inline-block bg-highlight p-2 font-["Comic_Sans_MS"] text-dark'>
+          {/* <p className='inline-block bg-highlight p-2 font-["Comic_Sans_MS"] text-dark'>
             <Link href='https://www.eventbrite.com/e/pettyfest-2-too-petty-tickets-676245678027?aff=ebdssbdestsearch&from=fd50c1352df611eeb6d63e96071a3b8e'>
               PETTY FEST 2
             </Link>
           </p>
           <p className='mb-14 inline-block p-2 font-["Comic_Sans_MS"] text-blue-600'>
             <Link href='/pettyfest-live'>(watch live)</Link>
-          </p>
+          </p> */}
           <p className='mt-4 text-2xl sm:text-4xl'>
             A creative community that actively rewards participation in its own
             evolution. Artists with the goal of bringing ideas to reality.

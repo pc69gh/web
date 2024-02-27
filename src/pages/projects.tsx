@@ -28,7 +28,7 @@ const PROJECTS = [
   },
   {
     title: 'Dark Web by Taifa',
-    href: '/projects/darkweb',
+    href: '/projects/darkweb.html',
     image: '/images/darkweb/page-thumbnail.png',
     description: 'Dark Web \nby Taifa\nCatalog Genesis',
   },
@@ -74,7 +74,7 @@ const PROJECTS = [
     description: 'ANIMATED COLLECTION BY XDrar minting on Zora',
   },
   {
-    href: '/projects/aight',
+    href: '/projects/aight.html',
     image: '/images/aight/page-thumbnail.png',
     title: 'AIGHT SKATE 📼 TAPE + NFT',
     description:
